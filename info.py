@@ -110,9 +110,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://marialuis-2952f9e45b55.herokuapp.com//".format(FQDN)
+    URL = "https://marialuis-2952f9e45b55.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://marialuis-2952f9e45b55.herokuapp.com//".format(FQDN)
+    URL = "https://marialuis-2952f9e45b55.herokuapp.com/".format(FQDN)
 
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
